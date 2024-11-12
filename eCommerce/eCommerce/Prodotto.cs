@@ -17,6 +17,25 @@ namespace eCommerce
         {
             get { return marca; }
         }
+        public string Modello
+        {
+            get { return modello; }
+        }
+        public double Prezzo
+        {
+            get { return prezzo; }
+            set { prezzo = value; }
+        }
+        public string Identificativo
+        {
+            get { return identificativo; }
+        }
 
+        public Prodotto(string marca, string modello, string identificativo)
+        {
+            this.marca = marca;
+            this.modello = modello;
+            this.identificativo = identificativo;
+        }
     }
 }

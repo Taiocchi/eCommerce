@@ -11,7 +11,7 @@ namespace eCommerce
     {
         private string identificativo;
 
-        private List<Prodotto> prodottiCarrello = new List<prodotto>();
+        private List<Prodotto> prodottiCarrello;
 
         public List<Prodotto> ProdottiCarrello
         {
@@ -23,15 +23,26 @@ namespace eCommerce
         }
         public void aggiungiProdotto(Prodotto prodotto)
         {
+            if (prodotto == null)
+                return;
             prodottiCarrello.Add(prodotto);
         }
         public void rimuoviProdotto(Prodotto prodotto)
         {
-            prodottiCarrello.Remove(prodotto);
+            if (prodotto == null)
+                return;
+            if(prodottiCarrello.IndexOf(prodotto)!=-1)
+                prodottiCarrello.Remove(prodotto);
         }
         public void svuotaCarrello()
         {
             prodottiCarrello.Clear();
+        }
+
+        public Carrello(string identificativo)
+        {
+            this.identificativo = identificativo;
+            prodottiCarrello = new List<Prodotto>();
         }
     }
 }

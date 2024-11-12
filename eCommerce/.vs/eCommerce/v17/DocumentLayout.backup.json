@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{790792B5-9D44-4015-94AE-D0512EFB1B7B}|eCommerce\\eCommerce.csproj|c:\\users\\lucta\\onedrive\\desktop\\luca\\c#\\ecommerce\\ecommerce\\ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{790792B5-9D44-4015-94AE-D0512EFB1B7B}|eCommerce\\eCommerce.csproj|solutionrelative:ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790792B5-9D44-4015-94AE-D0512EFB1B7B}|eCommerce\\eCommerce.csproj|c:\\users\\lucta\\onedrive\\desktop\\luca\\c#\\ecommerce\\ecommerce\\ecommerce\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790792B5-9D44-4015-94AE-D0512EFB1B7B}|eCommerce\\eCommerce.csproj|solutionrelative:ecommerce\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790792B5-9D44-4015-94AE-D0512EFB1B7B}|eCommerce\\eCommerce.csproj|c:\\users\\lucta\\onedrive\\desktop\\luca\\c#\\ecommerce\\ecommerce\\ecommerce\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790792B5-9D44-4015-94AE-D0512EFB1B7B}|eCommerce\\eCommerce.csproj|solutionrelative:ecommerce\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +32,36 @@
               "RelativeDocumentMoniker": "eCommerce\\Program.cs",
               "ToolTip": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerce\\eCommerce\\eCommerce\\Program.cs",
               "RelativeToolTip": "eCommerce\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T12:31:10.103Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Carrello.cs",
+              "DocumentMoniker": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerce\\eCommerce\\eCommerce\\Carrello.cs",
+              "RelativeDocumentMoniker": "eCommerce\\Carrello.cs",
+              "ToolTip": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerce\\eCommerce\\eCommerce\\Carrello.cs",
+              "RelativeToolTip": "eCommerce\\Carrello.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:35:23.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Prodotto.cs",
+              "DocumentMoniker": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerce\\eCommerce\\eCommerce\\Prodotto.cs",
+              "RelativeDocumentMoniker": "eCommerce\\Prodotto.cs",
+              "ToolTip": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerce\\eCommerce\\eCommerce\\Prodotto.cs",
+              "RelativeToolTip": "eCommerce\\Prodotto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:32:29.197Z",
               "EditorCaption": ""
             }
           ]
