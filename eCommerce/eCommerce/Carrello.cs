@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace eCommerce
+﻿namespace eCommerce
 {
-    internal class Carrello
+    class Carrello
     {
         private string identificativo;
 
@@ -31,8 +24,15 @@ namespace eCommerce
         {
             if (prodotto == null)
                 return;
-            if(prodottiCarrello.IndexOf(prodotto)!=-1)
-                prodottiCarrello.Remove(prodotto);
+            prodottiCarrello.Remove(prodotto);
+        }
+        public void rimuoviProdottoVistaInClasse(Prodotto prodotto)
+        {
+            if (prodotto == null)
+                return;
+            int pos = prodottiCarrello.IndexOf(prodotto);
+            if (pos != -1)
+                prodottiCarrello.RemoveAt(pos);
         }
         public void svuotaCarrello()
         {
